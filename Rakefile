@@ -160,6 +160,7 @@ vim_plugin_task "gist-vim",         "git://github.com/mattn/gist-vim.git"
 vim_plugin_task 'stylus', "git://github.com/wavded/vim-stylus.git"
 vim_plugin_task 'jade', "git://github.com/digitaltoad/vim-jade.git"
 
+
 #vim_plugin_task "hammer",           "git://github.com/robgleeson/hammer.vim.git" do
 #  sh "gem install github-markup redcarpet"
 #end
