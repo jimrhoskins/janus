@@ -147,3 +147,10 @@ set showcmd
 if filereadable(expand("~/.vimrc.local"))
   source ~/.vimrc.local
 endif
+
+
+" Ignore swp files
+set wildignore+=*.*.sw*
+
+" Change to /dev
+cd ~/dev/

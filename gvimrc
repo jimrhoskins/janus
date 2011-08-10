@@ -228,3 +228,9 @@ call s:DefineCommand("mkdir", "Mkdir")
 if filereadable(expand("~/.gvimrc.local"))
   source ~/.gvimrc.local
 endif
+
+
+"Theme and size
+"color autumnleaf
+set guifont=Monaco:h14            " Font family and font size.
+color vwilight
