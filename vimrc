@@ -3,6 +3,7 @@ set nocompatible
 set number
 set ruler
 syntax on
+set hidden "really carlhuda? No hidden?
 
 " Set encoding
 set encoding=utf-8
@@ -33,6 +34,9 @@ set laststatus=2
 " This is likely a bludgeon to solve some other issue, but it works
 set noequalalways
 
+"Fun stuff in the statusline
+set statusline=[%n]\ %<%.99f\ %h%w%m%r%y\ %{fugitive#statusline()}%{exists('*CapsLockStatusline')?CapsLockStatusline():''}%=%-16(\ %l,%c-%v\ %)%P
+
 " NERDTree configuration
 let NERDTreeIgnore=['\.pyc$', '\.rbc$', '\~$']
 map <Leader>n :NERDTreeToggle<CR>
@@ -46,6 +50,11 @@ map <Leader><Leader> :ZoomWin<CR>
 " CTags
 map <Leader>rt :!ctags --extra=+f -R *<CR><CR>
 map <C-\> :tnext<CR>
+
+if has("autocmd")
+  au BufReadPost *.rkt,*.rktl set filetype=lisp
+  au BufReadPost *.rkt,*.rktl set filetype=racket
+endif
 
 " Remember last location in file
 if has("autocmd")

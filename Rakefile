@@ -159,6 +159,8 @@ vim_plugin_task "gist-vim",         "git://github.com/mattn/gist-vim.git"
 
 vim_plugin_task 'stylus', "git://github.com/wavded/vim-stylus.git"
 vim_plugin_task 'jade', "git://github.com/digitaltoad/vim-jade.git"
+vim_plugin_task 'racket', "git://github.com/jimrhoskins/vim-racket.git"
+vim_plugin_task 'rainbowparents', "git://github.com/vim-scripts/Rainbow-Parenthesis.git"
 
 
 #vim_plugin_task "hammer",           "git://github.com/robgleeson/hammer.vim.git" do
