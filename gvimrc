@@ -228,6 +228,7 @@ call s:DefineCommand("mkdir", "Mkdir")
 "color autumnleaf
 set guifont=Monaco:h14            " Font family and font size.
 color vwilight
+set guioptions-=Lr
 
 " Include user's local vim config
 if filereadable(expand("~/.gvimrc.local"))
