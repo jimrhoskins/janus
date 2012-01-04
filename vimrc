@@ -22,6 +22,8 @@ set incsearch
 set ignorecase
 set smartcase
 
+imap jj <Esc>
+
 " Tab completion
 set wildmode=list:longest,list:full
 set wildignore+=*.o,*.obj,.git,*.rbc,*.class,.svn,vendor/gems/*
@@ -43,6 +45,7 @@ map <Leader>n :NERDTreeToggle<CR>
 
 " Command-T configuration
 let g:CommandTMaxHeight=20
+map <M-S-b> :CommandTBuffer<CR>
 
 " ZoomWin configuration
 map <Leader><Leader> :ZoomWin<CR>
