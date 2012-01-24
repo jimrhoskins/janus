@@ -47,6 +47,13 @@ map <Leader>n :NERDTreeToggle<CR>
 let g:CommandTMaxHeight=20
 map <M-S-b> :CommandTBuffer<CR>
 
+" Hide highlighting
+map <Leader>nh :silent noh<CR>
+
+" Relative line nos
+nnoremap <Leader>r :set rnu<CR>
+nnoremap <Leader>t :set nu<CR>
+
 " ZoomWin configuration
 map <Leader><Leader> :ZoomWin<CR>
 
