@@ -161,6 +161,7 @@ vim_plugin_task "go",               "https://github.com/anzaika/go.vim.git"
 vim_plugin_task 'stylus', "git://github.com/wavded/vim-stylus.git"
 vim_plugin_task 'jade', "git://github.com/digitaltoad/vim-jade.git"
 vim_plugin_task 'vim-less2', "git://github.com/lunaru/vim-less.git"
+vim_plugin_task 'rainbowparents', "git://github.com/vim-scripts/Rainbow-Parenthesis.git"
 
 
 #vim_plugin_task "hammer",           "git://github.com/robgleeson/hammer.vim.git" do
