@@ -169,7 +169,7 @@ endif
 
 if &term =~ "256color"
   set t_Co=256
-  color wombat256
+  color twilight256
 endif
 
 " Ignore swp files
