@@ -12,6 +12,5 @@ syntax
 syntax_checkers
 ftdetect
 ftplugin
-colors
 indent
 .VimballRecord
