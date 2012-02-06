@@ -167,6 +167,10 @@ if filereadable(expand("~/.vimrc.local"))
   source ~/.vimrc.local
 endif
 
+if &term =~ "256color"
+  set t_Co=256
+  color wombat256
+endif
 
 " Ignore swp files
 set wildignore+=*.*.sw*
