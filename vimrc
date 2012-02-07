@@ -176,4 +176,4 @@ endif
 set wildignore+=*.*.sw*
 
 " Change to /dev
-cd ~/dev/
+" cd ~/dev/
